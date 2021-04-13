@@ -7,4 +7,4 @@ from fibooks import balance_sheet
 ```
 ### Support
 ---
-link to paypal
+[Donate](https://paypal.me/timokats)
