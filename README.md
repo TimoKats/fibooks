@@ -8,11 +8,11 @@ from fibooks import balance_sheet
 
 ### Documentation
 ---
-##### balance sheet
-##### income statement
-##### statement of equity
-##### statement of cash flows
-##### compute
+#### balance sheet
+#### income statement
+#### statement of equity
+#### statement of cash flows
+#### compute
 
 ### Support
 ---
