@@ -5,6 +5,16 @@ fibooks is a python library for financial statement analysis. This library suppo
 ``` python
 from fibooks import balance_sheet
 ```
+
+### Documentation
+---
+##### balance sheet
+##### income statement
+##### statement of equity
+##### statement of cash flows
+##### compute
+
 ### Support
 ---
 [Donate](https://paypal.me/timokats)
+[Feedback](mailto:tpakats@gmail.com)
