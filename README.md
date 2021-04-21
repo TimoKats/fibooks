@@ -6,7 +6,7 @@ fibooks can be installed using the *Python package manager*. If you use PyCharm 
 ``` shell
 pip3 install fibooks
 ```
-If your installation is successfully completed you can test your version of fibooks. If this outputs the version number along with some other info, you're good to go!
+If your installation is successfully completed you can test your version of fibooks. You can use the following code snippet to test your installation. If this outputs the current version then you're ready to go!
 ``` python
 from fibooks import info
 
