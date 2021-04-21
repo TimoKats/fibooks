@@ -1,5 +1,5 @@
 # fibooks 1.0.3
-fibooks is a python library for financial statement analysis. This library (for now) supports 3 of the 4 main financial statements (balance sheet, income statement, statement of cashflows) and offers a set of formulas and ratios. 
+fibooks is a python library for financial statement analysis. This library (for now) supports 3 of the 4 main financial statements (balance sheet, income statement and statement of cashflows) and offers a set of formulas and ratios. 
 ### Getting Started
 ---
 ``` python
