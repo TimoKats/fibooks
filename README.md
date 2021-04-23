@@ -26,7 +26,26 @@ The balance sheet class has the following attributes:
 <summary>
 balance sheet functions
 </summary>
-<h1>test</h1>
+<ul>
+  <li>check_identity(): Checks balance sheet identity. Takes no parameters, returns boolean value</li>
+  <li>get_assets(): Gets the total value of assets. Takes no parameters, returns rounded float value.</li> 
+  <li>get_current_assets(): Gets the total value of assets. Takes no parameters, returns rounded float value.</li>  
+  <li>get_longterm_assets(): Gets the total value of longterm assets. Takes no parameters, returns rounded float value.</li>  
+  <li>get_equity(): Gets the total value of equity. Takes no parameters, returns rounded float value.</li>  
+  <li>get_liabilities(): Gets the total value of liabilities. Takes no parameters, returns rounded float value.</li>    
+  <li>get_current_liabilities(): Gets the total value of current liabilities. Takes no parameters, returns rounded float value. </li>
+  <li>get_longterm_assets(): Gets the total value of longterm liabilities. Takes no parameters, returns rounded float value.</li>
+  <li>get_field(field): Gets the value of a specific. Takes fieldname as parameter, returns field value.</li>
+  <li>add_current_asset(field, value): Adds current asset to the balance sheet. Takes fieldname and value as parameter, returns nothing.</li>
+  <li>add_longterm_asset(field, value): Adds longterm asset to the balance sheet. Takes fieldname and value as parameter, returns nothing.</li>
+  <li>add_current_liability(field, value): Adds current liability to the balance sheet. Takes fieldname and value as parameter, returns nothing.</li>
+  <li>add_longterm_liability(field, value): Adds longterm liability to the balance sheet. Takes fieldname and value as parameter, returns nothing.</li>
+  <li>add_equity(field, value): Adds equity to the balance sheet. Takes fieldname and value as parameter, returns nothing.</li>
+  <li>delete_current_asset(field): deletes current asset to the balance sheet. Takes fieldname as parameter, returns nothing.</li>
+  <li>delete_longterm_asset(field): deletes longterm asset to the balance sheet. Takes fieldname as parameter, returns nothing.</li>
+  <li>empty(): Clears the current balance sheet. Takes no parameters, returns nothing.</li>
+  <li>make(): Creates the current balance sheet based on the previously given instructions. Takes no parameters, returns nothing.</li>
+</ul>
 </details>  
   
 <details>
