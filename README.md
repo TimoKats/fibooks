@@ -1,7 +1,6 @@
 # fibooks 1.0.3
 fibooks is a python library for financial statement analysis. This library (for now) supports 3 of the 4 main financial statements (balance sheet, income statement and statement of cashflows) and offers a set of formulas and ratios. 
-### Getting Started
----
+## Getting Started
 fibooks can be installed using the *Python package manager*, also known as pip. If you use PyCharm (or any other IDE) then please follow their package installation guidelines. Do note that fibooks was developed using Python 3 so that's the version this package is optimized for regardless of your environment.
 ``` shell
 pip3 install fibooks
@@ -12,9 +11,8 @@ from fibooks import info
 
 info.get_version()
 ```
-### Documentation
----
-#### balance sheet
+## Documentation
+### balance sheet
 To create a balance sheet you must import the class and initiate it.
 ``` python
 from fibooks import balance_sheet
@@ -68,7 +66,7 @@ printing functions
 </ul>
 </details>
 
-#### income statement
+### income statement
 To create an income statement you must import the class and initiate it.
 ``` python
 from fibooks import income_statement
@@ -113,7 +111,7 @@ printing functions
 </ul>
 </details>
 
-#### statement of cash flows
+### statement of cash flows
 To create a statement of cash flows you must import the class and initiate it.
 ``` python
 from fibooks import statement_of_cash_flows
@@ -162,10 +160,10 @@ printing functions
 </ul>
 </details>
 
-#### statement of equity
+### statement of equity
 This class will be added in the next update...
 
-#### compute
+### compute
 To use the built in computations you must import the class.
 ``` python
 from fibooks import compute
@@ -197,7 +195,6 @@ other
 </ul>
 </details>
 
-### Support
----
+## Support
 [Donate](https://paypal.me/timokats)  
 [Feedback](mailto:tpakats@gmail.com)
