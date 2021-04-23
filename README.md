@@ -58,6 +58,7 @@ file import/export functions
   <li><b>export_text(filename)</b>: Exports the current balance sheet to a text file. Takes the filename as parameter, returns nothing.</li>  
 </ul>   
 </details>
+
 <details>
 <summary>
 printing functions
@@ -66,6 +67,7 @@ printing functions
   <li><b>print()</b>: Prints the current balance sheet to the standard output. Takes no parameters, returns nothing</li>
 </ul>
 </details>
+
 #### income statement
 To create an income statement you must import the class and initiate it.
 ``` python
@@ -84,6 +86,7 @@ file import/export functions
   <li><b>export_text(filename)</b>: Exports the current balance sheet to a text file. Takes the filename as parameter, returns nothing.</li>  
 </ul>   
 </details>
+
 <details>
 <summary>
 printing functions
@@ -111,6 +114,7 @@ file import/export functions
   <li><b>export_text(filename)</b>: Exports the current balance sheet to a text file. Takes the filename as parameter, returns nothing.</li>  
 </ul>   
 </details>
+
 <details>
 <summary>
 printing functions
@@ -119,9 +123,9 @@ printing functions
   <li><b>print()</b>: Prints the current balance sheet to the standard output. Takes no parameters, returns nothing</li>
 </ul>
 </details>
+
 #### statement of equity
 #### compute
-
 ### Support
 ---
 [Donate](https://paypal.me/timokats)  
