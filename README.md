@@ -164,7 +164,12 @@ printing functions
 
 #### statement of equity
 This class will be added in the next update...
+
 #### compute
+To use the built in computations you must import the class.
+``` python
+from fibooks import compute
+```
 <details>
 <summary>
 leverage ratios
@@ -191,6 +196,7 @@ other
   <li><b>print()</b>: Prints the current balance sheet to the standard output. Takes no parameters, returns nothing</li>
 </ul>
 </details>
+
 ### Support
 ---
 [Donate](https://paypal.me/timokats)  
