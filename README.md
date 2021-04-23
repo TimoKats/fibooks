@@ -59,6 +59,7 @@ file import/export functions
 </ul>   
 </details>
 <details>
+  
 <summary>
 printing functions
 </summary>
@@ -73,6 +74,7 @@ To create an income statement you must import the class and initiate it.
 from fibooks import income_statement
 my_company = income_statement('my company in 2021')
 ```
+Attributes:
 <details>
 <summary>
 file import/export functions
@@ -92,7 +94,7 @@ printing functions
   <li><b>print()</b>: Prints the current balance sheet to the standard output. Takes no parameters, returns nothing</li>
 </ul>
 </details>
-Attributes:
+
 #### statement of cash flows
 To create a statement of cash flows you must import the class and initiate it.
 ``` python
