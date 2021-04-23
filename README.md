@@ -52,12 +52,18 @@ balance sheet functions
 <summary>
 file import/export functions
 </summary>
-<h1>test</h1>
-    
+<ul>
+  <li><b>import_json(filename)</b>: Imports a .json file as balance sheet. Takes the filename as parameter, returns nothing.</li> 
+  <li><b>export_json(filename)</b>: Exports the current balance sheet to a .json format. Takes the filename as parameter, returns nothing.</li> 
+  <li><b>export_excel(filename)</b>: Exports the current balance sheet to an excel spreadsheet. Takes the filename as parameter, returns nothing.</li>  
+  <li><b>export_text(filename)</b>: Exports the current balance sheet to a text file. Takes the filename as parameter, returns nothing.</li>  
+</ul>   
 </details>
 <details>
 <summary>
-printing functions
+  <ul>
+  <li><b>print()</b>: Prints the current balance sheet to the standard output. Takes no parameters, returns nothing</li>
+  </ul>
 </summary>
 <h1>test</h1>
 </details>
