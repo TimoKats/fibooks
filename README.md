@@ -22,6 +22,8 @@ my_company = balance_sheet('my company in 2021')
 ```
 The balance sheet class has the following attributes:
   - **balance sheet functions**
+  <balancesheet functions>
+        <test>
       - check_identity()  
         *Checks balance sheet identity. Takes no parameters, returns boolean value*
       - get_assets()  
@@ -40,7 +42,6 @@ The balance sheet class has the following attributes:
         *Gets the total value of longterm liabilities. Takes no parameters, returns rounded float value.*
       - get_field(field)  
         *Gets the value of a specific. Takes fieldname as parameter, returns field value.*
-        
       - add_current_asset(field, value)  
         *Adds current asset to the balance sheet. Takes fieldname and value as parameter, returns nothing.*
       - add_longterm_asset(field, value)  
@@ -51,7 +52,6 @@ The balance sheet class has the following attributes:
         *Adds longterm liability to the balance sheet. Takes fieldname and value as parameter, returns nothing.*
       - add_equity(field, value)  
         *Adds equity to the balance sheet. Takes fieldname and value as parameter, returns nothing.*
-
       - delete_current_asset(field)  
         *deletes current asset to the balance sheet. Takes fieldname as parameter, returns nothing.*
       - delete_longterm_asset(field)  
@@ -62,11 +62,12 @@ The balance sheet class has the following attributes:
         *deletes longterm liability to the balance sheet. Takes fieldname as parameter, returns nothing.*
       - add_equity(field)  
         *deletes equity to the balance sheet. Takes fieldname as parameter, returns nothing.*
-        
       - empty()  
         *Clears the current balance sheet. Takes no parameters, returns nothing.*       
       - make()  
-        *Creates the current balance sheet based on the previously given instructions. Takes no parameters, returns nothing.*       
+        *Creates the current balance sheet based on the previously given instructions. Takes no parameters, returns nothing.*   
+  </test>
+  </balancesheet functions>
   - **file import/export functions**
   - **printing functions**
 #### income statement
