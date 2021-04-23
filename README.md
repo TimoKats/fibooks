@@ -66,6 +66,8 @@ printing functions
 </ul>
 </details>
 
+---
+
 ### income statement
 To create an income statement you must import the class and initiate it.
 ``` python
@@ -110,6 +112,8 @@ printing functions
   <li><b>print()</b>: Prints the current balance sheet to the standard output. Takes no parameters, returns nothing</li>
 </ul>
 </details>
+
+---
 
 ### statement of cash flows
 To create a statement of cash flows you must import the class and initiate it.
@@ -160,8 +164,12 @@ printing functions
 </ul>
 </details>
 
+---
+
 ### statement of equity
 This class will be added in the next update...
+
+---
 
 ### compute
 To use the built in computations you must import the class.
