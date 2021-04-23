@@ -61,11 +61,11 @@ file import/export functions
 </details>
 <details>
 <summary>
-  <ul>
-  <li><b>print()</b>: Prints the current balance sheet to the standard output. Takes no parameters, returns nothing</li>
-  </ul>
+printing functions
 </summary>
-<h1>test</h1>
+<ul>
+  <li><b>print()</b>: Prints the current balance sheet to the standard output. Takes no parameters, returns nothing</li>
+</ul>
 </details>
 
 #### income statement
