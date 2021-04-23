@@ -21,6 +21,7 @@ from fibooks import balance_sheet
 my_company = balance_sheet('my company in 2021')
 ```
 The balance sheet class has the following attributes:
+```{style="max-height: 50px;"}
   - **balance sheet functions**
       - check_identity()  
         *Checks balance sheet identity. Takes no parameters, returns boolean value*
@@ -69,6 +70,7 @@ The balance sheet class has the following attributes:
         *Creates the current balance sheet based on the previously given instructions. Takes no parameters, returns nothing.*       
   - **file import/export functions**
   - **printing functions**
+```
 #### income statement
 #### statement of equity
 #### statement of cash flows
