@@ -123,13 +123,21 @@ Attributes:
 
 <details>
 <summary>
-file import/export functions
+statement of cash flows functions
 </summary>
 <ul>
-  <li><b>import_json(filename)</b>: Imports a .json file as balance sheet. Takes the filename as parameter, returns nothing.</li> 
-  <li><b>export_json(filename)</b>: Exports the current balance sheet to a .json format. Takes the filename as parameter, returns nothing.</li> 
-  <li><b>export_excel(filename)</b>: Exports the current balance sheet to an excel spreadsheet. Takes the filename as parameter, returns nothing.</li>  
-  <li><b>export_text(filename)</b>: Exports the current balance sheet to a text file. Takes the filename as parameter, returns nothing.</li>  
+  <li><b>add_operating_activity(field, value)</b>: Adds an operating activity to the statement of cash flows. Takes the fieldname and value as parameters, returns nothing.</li>
+  <li><b>add_investing_activity(field, value)</b>: Adds an investing activity to the statement of cash flows. Takes the fieldname and value as parameters, returns nothing.</li> 
+  <li><b>add_financing_activity(field, value)</b>: Adds an financing activity to the statement of cash flows. Takes the fieldname and value as parameters, returns nothing.</li>
+  <li><b>delete_operating_activity(field)</b>: Deletes an operating activity to the statement of cash flows. Takes the fieldname as parameter, returns nothing.</li>
+  <li><b>delete_investing_activity(field)</b>: Deletes an investing activity to the statement of cash flows. Takes the fieldname as parameter, returns nothing.</li> 
+  <li><b>delete_financing_activity(field)</b>: Deletes an financing activity to the statement of cash flows. Takes the fieldname as parameter, returns nothing.</li> 
+  <li><b>get_operating_cash()</b>: Gets the operating cash from the statement of cash flows. Takes no parameters, returns rounded float value.</li>
+  <li><b>get_investing_cash()</b>: Gets the investing cash from the statement of cash flows. Takes no parameters, returns rounded float value.</li>
+  <li><b>get_financing_cash()</b>: Gets the financing cash from the statement of cash flows. Takes no parameters, returns rounded float value.</li>  
+  <li><b>get_net_cash()</b>: Gets the net cash from the statement of cash flows. Takes no parameters, returns nothing.</li>
+  <li><b>empty()</b>: Clears the current balance sheet. Takes no parameters, returns nothing.</li>
+  <li><b>make()</b>: Creates the current balance sheet based on the previously given instructions. Takes no parameters, returns nothing.</li> 
 </ul>   
 </details>
 
