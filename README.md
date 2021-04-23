@@ -18,9 +18,57 @@ info.get_version()
 To create a balance sheet you must import the class and initiate it. The only parameter that this class takes is the name of the balance sheet you want to make.
 ``` python
 from fibooks import balance_sheet
-
 my_company = balance_sheet('my company in 2021')
 ```
+The balance sheet class has the following attributes:
+  - **balance sheet functions**
+      - check_identity()  
+        *Checks balance sheet identity. Takes no parameters, returns boolean value*
+      - get_assets()  
+        *Gets the total value of assets. Takes no parameters, returns rounded float value.*
+      - get_current_assets()  
+        *Gets the total value of current assets. Takes no parameters, returns rounded float value.*
+      - get_longterm_assets()  
+        *Gets the total value of longterm assets. Takes no parameters, returns rounded float value.*
+      - get_equity()  
+        *Gets the total value of equity. Takes no parameters, returns rounded float value.*
+      - get_liabilities()  
+        *Gets the total value of liabilities. Takes no parameters, returns rounded float value.*
+      - get_current_liabilities()  
+        *Gets the total value of current liabilities. Takes no parameters, returns rounded float value.*
+      - get_longterm_assets()  
+        *Gets the total value of longterm liabilities. Takes no parameters, returns rounded float value.*
+      - get_field(field)  
+        *Gets the value of a specific. Takes fieldname as parameter, returns field value.*
+        
+      - add_current_asset(field, value)  
+        *Adds current asset to the balance sheet. Takes fieldname and value as parameter, returns nothing.*
+      - add_longterm_asset(field, value)  
+        *Adds longterm asset to the balance sheet. Takes fieldname and value as parameter, returns nothing.*
+      - add_current_liability(field, value)  
+        *Adds current liability to the balance sheet. Takes fieldname and value as parameter, returns nothing.*
+      - add_longterm_liability(field, value)  
+        *Adds longterm liability to the balance sheet. Takes fieldname and value as parameter, returns nothing.*
+      - add_equity(field, value)  
+        *Adds equity to the balance sheet. Takes fieldname and value as parameter, returns nothing.*
+
+      - delete_current_asset(field)  
+        *deletes current asset to the balance sheet. Takes fieldname as parameter, returns nothing.*
+      - delete_longterm_asset(field)  
+        *deletes longterm asset to the balance sheet. Takes fieldname as parameter, returns nothing.*
+      - add_current_liability(field)  
+        *deletes current liability to the balance sheet. Takes fieldname as parameter, returns nothing.*
+      - add_longterm_liability(field)  
+        *deletes longterm liability to the balance sheet. Takes fieldname as parameter, returns nothing.*
+      - add_equity(field)  
+        *deletes equity to the balance sheet. Takes fieldname as parameter, returns nothing.*
+        
+      - empty()  
+        *Clears the current balance sheet. Takes no parameters, returns nothing.*       
+      - make()  
+        *Creates the current balance sheet based on the previously given instructions. Takes no parameters, returns nothing.*       
+  - **file import/export functions**
+  - **printing functions**
 #### income statement
 #### statement of equity
 #### statement of cash flows
