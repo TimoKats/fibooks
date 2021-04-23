@@ -15,13 +15,12 @@ info.get_version()
 ### Documentation
 ---
 #### balance sheet
-To create a balance sheet you must import the class and initiate it. The only parameter that this class takes is the name of the balance sheet you want to make.
-
+To create a balance sheet you must import the class and initiate it.
 ``` python
 from fibooks import balance_sheet
 my_company = balance_sheet('my company in 2021')
 ```
-The balance sheet class has the following attributes:
+Attributes:
 <details>
 <summary>
 balance sheet functions
