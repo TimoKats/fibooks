@@ -77,6 +77,23 @@ my_company = income_statement('my company in 2021')
 Attributes:
 <details>
 <summary>
+income statement functions
+</summary>
+<ul>
+  <li><b>add_revenue(field, value)</b>: Adds a revenue field to the income statement. Takes the fieldname and value as parameters, returns nothing.</li> 
+  <li><b>add_expense(field, value)</b>: Adds an expense field to the income statement. Takes the fieldname and value as parameters, returns nothing.</li>  
+  <li><b>delete_revenue(field)</b>: Deletes a revenue field to the income statement. Takes the fieldname as parameter, returns nothing.</li> 
+  <li><b>delete_expense(field)</b>: Deletes an expense field to the income statement. Takes the fieldname as parameter, returns nothing.</li>   
+  <li><b>get_revenues()</b>: Gets the total amount of revenues in the income statement. Takes no parameters, returns rounded float value.</li> 
+  <li><b>get_expenses()</b>: Adds an expense field to the income statement. Takes the fieldname and value as parameters, returns nothing.</li> 
+  <li><b>get_netincome()</b>: Gets the net income of the income statement. Takes no parametes, returns rounded float value.</li> 
+  <li><b>empty()</b>: Clears the current balance sheet. Takes no parameters, returns nothing.</li>
+  <li><b>make()</b>: Creates the current balance sheet based on the previously given instructions. Takes no parameters, returns nothing.</li> 
+</ul>   
+</details>
+
+<details>
+<summary>
 file import/export functions
 </summary>
 <ul>
@@ -103,6 +120,19 @@ from fibooks import statement_of_cash_flows
 my_company = statement_of_cash_flows('my company in 2021')
 ```
 Attributes:
+
+<details>
+<summary>
+file import/export functions
+</summary>
+<ul>
+  <li><b>import_json(filename)</b>: Imports a .json file as balance sheet. Takes the filename as parameter, returns nothing.</li> 
+  <li><b>export_json(filename)</b>: Exports the current balance sheet to a .json format. Takes the filename as parameter, returns nothing.</li> 
+  <li><b>export_excel(filename)</b>: Exports the current balance sheet to an excel spreadsheet. Takes the filename as parameter, returns nothing.</li>  
+  <li><b>export_text(filename)</b>: Exports the current balance sheet to a text file. Takes the filename as parameter, returns nothing.</li>  
+</ul>   
+</details>
+
 <details>
 <summary>
 file import/export functions
@@ -125,6 +155,7 @@ printing functions
 </details>
 
 #### statement of equity
+This class will be added in the next update...
 #### compute
 ### Support
 ---
