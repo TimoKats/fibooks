@@ -165,6 +165,32 @@ printing functions
 #### statement of equity
 This class will be added in the next update...
 #### compute
+<details>
+<summary>
+leverage ratios
+</summary>
+<ul>
+  <li><b>print()</b>: Prints the current balance sheet to the standard output. Takes no parameters, returns nothing</li>
+</ul>
+</details>
+
+<details>
+<summary>
+liquidity ratios
+</summary>
+<ul>
+  <li><b>print()</b>: Prints the current balance sheet to the standard output. Takes no parameters, returns nothing</li>
+</ul>
+</details>
+
+<details>
+<summary>
+other
+</summary>
+<ul>
+  <li><b>print()</b>: Prints the current balance sheet to the standard output. Takes no parameters, returns nothing</li>
+</ul>
+</details>
 ### Support
 ---
 [Donate](https://paypal.me/timokats)  
