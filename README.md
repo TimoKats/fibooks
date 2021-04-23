@@ -69,7 +69,21 @@ printing functions
 </details>
 
 #### income statement
+To create an income statement you must import the class and initiate it. The only parameter that this class takes is the name of the balance sheet you want to make.
+
+``` python
+from fibooks import income_statement
+my_company = income_statement('my company in 2021')
+```
+The income statement class has the following attributes:
 #### statement of cash flows
+To create a statement of cash flows you must import the class and initiate it. The only parameter that this class takes is the name of the balance sheet you want to make.
+
+``` python
+from fibooks import statement_of_cash_flows
+my_company = statement_of_cash_flows('my company in 2021')
+```
+The statement of cash flows class has the following attributes:
 #### statement of equity
 #### compute
 
