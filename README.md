@@ -68,21 +68,57 @@ printing functions
 </details>
 
 #### income statement
-To create an income statement you must import the class and initiate it. The only parameter that this class takes is the name of the balance sheet you want to make.
-
+To create an income statement you must import the class and initiate it.
 ``` python
 from fibooks import income_statement
 my_company = income_statement('my company in 2021')
 ```
-The income statement class has the following attributes:
+<details>
+<summary>
+file import/export functions
+</summary>
+<ul>
+  <li><b>import_json(filename)</b>: Imports a .json file as balance sheet. Takes the filename as parameter, returns nothing.</li> 
+  <li><b>export_json(filename)</b>: Exports the current balance sheet to a .json format. Takes the filename as parameter, returns nothing.</li> 
+  <li><b>export_excel(filename)</b>: Exports the current balance sheet to an excel spreadsheet. Takes the filename as parameter, returns nothing.</li>  
+  <li><b>export_text(filename)</b>: Exports the current balance sheet to a text file. Takes the filename as parameter, returns nothing.</li>  
+</ul>   
+</details>
+<details>
+<summary>
+printing functions
+</summary>
+<ul>
+  <li><b>print()</b>: Prints the current balance sheet to the standard output. Takes no parameters, returns nothing</li>
+</ul>
+</details>
+Attributes:
 #### statement of cash flows
-To create a statement of cash flows you must import the class and initiate it. The only parameter that this class takes is the name of the balance sheet you want to make.
-
+To create a statement of cash flows you must import the class and initiate it.
 ``` python
 from fibooks import statement_of_cash_flows
 my_company = statement_of_cash_flows('my company in 2021')
 ```
-The statement of cash flows class has the following attributes:
+Attributes:
+<details>
+<summary>
+file import/export functions
+</summary>
+<ul>
+  <li><b>import_json(filename)</b>: Imports a .json file as balance sheet. Takes the filename as parameter, returns nothing.</li> 
+  <li><b>export_json(filename)</b>: Exports the current balance sheet to a .json format. Takes the filename as parameter, returns nothing.</li> 
+  <li><b>export_excel(filename)</b>: Exports the current balance sheet to an excel spreadsheet. Takes the filename as parameter, returns nothing.</li>  
+  <li><b>export_text(filename)</b>: Exports the current balance sheet to a text file. Takes the filename as parameter, returns nothing.</li>  
+</ul>   
+</details>
+<details>
+<summary>
+printing functions
+</summary>
+<ul>
+  <li><b>print()</b>: Prints the current balance sheet to the standard output. Takes no parameters, returns nothing</li>
+</ul>
+</details>
 #### statement of equity
 #### compute
 
