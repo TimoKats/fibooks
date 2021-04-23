@@ -14,7 +14,7 @@ info.get_version()
 ```
 ### Documentation
 ---
-#### balance sheet
+#### 1) balance sheet
 To create a balance sheet you must import the class and initiate it.
 ``` python
 from fibooks import balance_sheet
@@ -68,7 +68,7 @@ printing functions
 </ul>
 </details>
 
-#### income statement
+#### 2) income statement
 To create an income statement you must import the class and initiate it.
 ``` python
 from fibooks import income_statement
@@ -95,7 +95,7 @@ printing functions
 </ul>
 </details>
 
-#### statement of cash flows
+#### 3) statement of cash flows
 To create a statement of cash flows you must import the class and initiate it.
 ``` python
 from fibooks import statement_of_cash_flows
