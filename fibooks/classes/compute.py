@@ -18,8 +18,8 @@ class compute:
 
     # liquidity ratios
 
-    def current_ratio(balance_sheet_1, balance_sheet_2):
-        return round(balance_sheet_1.get_current_assets() / balance_sheet_2.get_current_assets(), 2)
+    def current_ratio(balance_sheet):
+        return round(balance_sheet.get_current_assets() / balance_sheet.get_current_liabilities(), 2)
 
     def quick_ratio(balance_sheet):
         return round((balance_sheet.get_field('cash') + balance_sheet.get_field('accounts recievable')) / balance_sheet.get_current_liabilities(), 2)
