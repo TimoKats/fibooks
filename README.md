@@ -18,7 +18,7 @@ To create a balance sheet you must import the class and initiate it.
 from fibooks import balance_sheet
 my_company = balance_sheet('my company in 2021')
 ```
-Attributes:
+
 <details>
 <summary>
 balance sheet functions
