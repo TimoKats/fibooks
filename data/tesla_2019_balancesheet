@@ -1,0 +1,43 @@
+{
+    "assets": {
+        "current_assets": {
+            "cash": 6268,
+            "restricted cash": 246,
+            "accounts receivable": 1324,
+            "inventory": 3552,
+            "prepaid expenses/other": 713
+        },
+        "longterm_assets": {
+            "lease vehicles": 2447,
+            "solar energy": 6138,
+            "property, plant and equipment": 10396,
+            "operating lease assets": 1218,
+            "intangible assets": 339,
+            "goodwill": 198,
+            "notes receivable": 393,
+            "restricted cash, net of current portion": 269,
+            "other assets": 808
+        }
+    },
+    "liabilities": {
+        "current_liabilities": {
+            "accounts payable": 3771,
+            "accrued liabillities": 2905,
+            "deferred revenue": 1163,
+            "resale value": 317,
+            "customer deposits": 726,
+            "current debt and finance leases": 1785
+        },
+        "longterm_liabilities": {
+            "debt and finance leases": 11634,
+            "deferred revenue": 1207,
+            "resale value guarantees": 36,
+            "other liabilities": 2655
+        }
+    },
+    "equity": {
+        "noncontrolling interests in subsidiaries": 643,
+        "stockholders equity": 6618,
+        "interests": 849
+    }
+}
