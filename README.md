@@ -1,5 +1,5 @@
 # fibooks  [![Downloads](https://static.pepy.tech/personalized-badge/fibooks?period=total&units=international_system&left_color=grey&right_color=blue&left_text=Total%20number%20of%20users)](https://pepy.tech/project/fibooks) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-fibooks is a python library for financial statement analysis. This library (for now) supports 3 of the 4 main financial statements (balance sheet, income statement and statement of cashflows) and offers a set of formulas and ratios.
+Fibooks is a python library for financial statement analysis. This library supports all 3 main financial statements (balance sheet, income statement and statement of cashflows) and offers a large set of formulas and ratios.
 ## Getting Started
 fibooks can be installed using the *Python package manager*, also known as pip. If you use PyCharm (or any other IDE) then please follow their package installation guidelines. Do note that fibooks was developed using Python 3 so that's the version this package is optimized for regardless of your environment.
 ``` shell
@@ -163,11 +163,6 @@ printing functions
   <li><b>print()</b>: Prints the current balance sheet to the standard output. Takes no parameters, returns nothing</li>
 </ul>
 </details>
-
----
-
-### statement of equity
-This class will be added in the next update...
 
 ---
 
