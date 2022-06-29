@@ -1,4 +1,4 @@
-# fibooks by Timo Kats
+# fibooks by Timo Kats and Alexandre Kobrin
 # version 1.0.3
 # April 2021
 # compute.py
