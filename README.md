@@ -207,3 +207,5 @@ other
 [Donate](https://paypal.me/timokats)  
 [Feedback](mailto:tpakats@gmail.com)  
 [Pypi](https://pypi.org/project/fibooks/)
+
+## Future work
