@@ -208,4 +208,8 @@ other
 [Feedback](mailto:tpakats@gmail.com)  
 [Pypi](https://pypi.org/project/fibooks/)
 
-## Future work
+## Future work / Ideas
+- Valuation for companies
+- More ratio's
+- Compatibility with different accounting formats (GAAP, IFRS etc.)
+- A parser that can standerdize the differences in 'finance jargon' between companies
