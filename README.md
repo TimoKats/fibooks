@@ -209,7 +209,7 @@ other
 [Pypi](https://pypi.org/project/fibooks/)
 
 ## Future work / Ideas
-- Valuation for companies
+- Valuation for companies (Discounted Cash Flow)
 - More ratio's
 - Compatibility with different accounting formats (GAAP, IFRS etc.)
 - A parser that can standerdize the differences in 'finance jargon' between companies
