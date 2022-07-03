@@ -211,5 +211,5 @@ other
 ## Future work / Ideas
 - Valuation for companies (Discounted Cash Flow)
 - More ratio's
-- Compatibility with different accounting formats (GAAP, IFRS etc.)
+- Compatibility with different accounting formats (US GAAP, IFRS etc.)
 - A parser that can standerdize the differences in 'finance jargon' between companies
