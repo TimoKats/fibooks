@@ -18,7 +18,7 @@ Change Log
 - Adding documentation
 - fixing bugs
 
-2.0.0
+2.0.4
 -----------------
 - Alex Kobrin is added to the development team
 - Better documentation
