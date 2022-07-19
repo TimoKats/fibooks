@@ -7,14 +7,19 @@ import json, pandas as pd
 
 class income_statement:
     def __init__(self, company_name):
-        # settings
-        template_file = 'fibooks/lib/income_statement_template.json'
         # meta data
         self.company_name = company_name
         # fibooks parts
         self.content = {}
-        self.template = json.load(open(template_file))
-        self.standard_categories = {'revenues':[],'expenses':[]}
+        self.template = {
+            'revenues':["total cogs"],
+            'expenses':["net operating income", "ebt"],
+            'ignore': ["net income","gross profit" ]
+            }
+        self.standard_categories = {
+            'revenues':[],
+            'expenses':[]
+            }
         self.custom_categories = {}
         
         

@@ -7,14 +7,29 @@ import json, pandas as pd
 
 class statement_of_cashflows:
     def __init__(self, company_name):
-        # settings
-        template_file = 'fibooks/lib/cashflow_template.json'
         # meta data
         self.company_name = company_name
         # fibooks parts
         self.content = {}
-        self.template = json.load(open(template_file))
-        self.standard_categories = {'operations':[], 'investing':[], 'financing':[]}
+        self.template = {
+            'operations':["income taxes"], 
+            'investing':["purchase of investment securities","making loans to other entities"], 
+            'financing':["dividends"],
+            'ignore': [
+            "net cash flow from operations",
+            "net cash flow from investing activities",
+            "net cash flow from financing activities",
+            "net cash flow",
+            "beginning cash",
+            "total change in cash",
+            "ending cash"
+            ]
+            }
+        self.standard_categories = {
+            'operations':[], 
+            'investing':[], 
+            'financing':[]
+            }
         self.custom_categories = {}
         self.cash_opening = 0
         

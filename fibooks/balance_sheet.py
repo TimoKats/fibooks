@@ -7,14 +7,29 @@ import json, pandas as pd
 
 class balance_sheet:
     def __init__(self, company_name):
-        # settings
-        template_file = 'fibooks/lib/balance_sheet_template.json'
         # meta data
         self.company_name = company_name
         # fibooks parts
         self.content = {}
-        self.template = json.load(open(template_file))
-        self.standard_categories = {'current assets':[],'longterm assets':[], 'current liabilities':[], 'longterm liabilities':[], 'equity':[]}
+        self.template = {
+            'current assets':["other"],
+            'longterm assets':["less accumulated depreciation"], 
+            'current liabilities':["other"], 
+            'longterm liabilities':["mortgage payable"], 
+            'equity':["accumulated retained earnings"],
+            'ignore': [        
+            "total current assets",
+            "total fixed assets",
+            "total long-term liabilities",
+            "total owner's equity"]
+            }
+        self.standard_categories = {
+            'current assets':[],
+            'longterm assets':[], 
+            'current liabilities':[], 
+            'longterm liabilities':[], 
+            'equity':[]
+            }
         self.custom_categories = {}
         
     # category functions
