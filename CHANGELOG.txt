@@ -17,3 +17,12 @@ Change Log
 ------------------
 - Adding documentation
 - fixing bugs
+
+2.0.0
+-----------------
+- Alex Kobrin is added to the development team
+- Better documentation
+- new valuation methods
+- new custom methods
+- import from excel added
+- integration with pandas added
