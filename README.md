@@ -1,7 +1,7 @@
 ![logo](https://github.com/TimoKats/medium_articles/blob/main/img/logo.png?raw=true)  
 
 [![Downloads](https://static.pepy.tech/personalized-badge/fibooks?period=total&units=international_system&left_color=grey&right_color=blue&left_text=Total%20number%20of%20users)](https://pepy.tech/project/fibooks) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  [![stars - fibooks](https://img.shields.io/github/stars/TimoKats/fibooks?style=social)](https://github.com/TimoKats/fibooks)
-[![forks - fibooks](https://img.shields.io/github/forks/TimoKats/fibooks?style=social)](https://github.com/TimoKats/fibooks) [![GitHub tag](https://img.shields.io/github/tag/TimoKats/fibooks?include_prereleases=&sort=semver&color=blue)](https://github.com/TimoKats/fibooks/releases/)
+[![forks - fibooks](https://img.shields.io/github/forks/TimoKats/fibooks?style=social)](https://github.com/TimoKats/fibooks) 
 ---
 
 Fibooks is a python library for financial statement analysis. This library supports all 3 main financial statements (balance sheet, income statement and statement of cashflows) and offers a large set of formulas and ratios.
