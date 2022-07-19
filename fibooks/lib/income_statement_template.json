@@ -1,0 +1,13 @@
+{
+    "revenues": [
+        "total cogs"
+    ],
+    "expenses": [
+        "net operating income",
+        "ebt"
+    ],
+    "ignore": [
+       "net income",
+       "gross profit" 
+    ]
+}

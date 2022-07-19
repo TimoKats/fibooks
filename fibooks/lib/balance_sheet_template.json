@@ -1,0 +1,23 @@
+{
+    "current assets": [
+        "other"
+    ],
+    "longterm assets": [
+        "less accumulated depreciation"
+    ],
+    "current liabilities": [
+        "other"
+    ],
+    "longterm liabilities": [
+        "mortgage payable"
+    ],
+    "equity": [
+        "accumulated retained earnings"
+    ],
+    "ignore": [
+        "total current assets",
+        "total fixed assets",
+        "total long-term liabilities",
+        "total owner's equity"
+    ]
+}

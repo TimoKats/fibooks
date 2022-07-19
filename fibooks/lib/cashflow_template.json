@@ -1,0 +1,21 @@
+{
+    "operations": [
+        "income taxes"
+    ],
+    "investing": [
+        "purchase of investment securities",
+        "making loans to other entities"
+    ],
+    "financing": [
+        "dividends"
+    ],
+    "ignore": [
+        "net cash flow from operations",
+        "net cash flow from investing activities",
+        "net cash flow from financing activities",
+        "net cash flow",
+        "beginning cash",
+        "total change in cash",
+        "ending cash"
+    ]
+}
